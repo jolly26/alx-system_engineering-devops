@@ -1,221 +1,500 @@
-cd /root
-mkdir 0x00-shell_basics
-cd 0x00-shell_basics
-git clone https://github.com/jolly26/alx-system_engineering-devops.git
-echo "# alx-system_engineering-devops" >> README.md
-git add README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-realpath "$0"
-realpath --help
-cd /bin/pwd
-/bin/pwd
-emacs 0-current_working_directory
-cd
-git status
-git init
-cd /root
-pwd
-ls
-cd 0x00-shell_basics
-git init
-git status
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{825079dd-6112-11ec-bd74-94b86dd0cef5}.TM.blf
+        NTUSER.DAT{825079dd-6112-11ec-bd74-94b86dd0cef5}.TMContainer000000000000
+00000001.regtrans-ms
+        NTUSER.DAT{825079dd-6112-11ec-bd74-94b86dd0cef5}.TMContainer000000000000
+00000002.regtrans-ms
+        OneDrive - TAL Apparel/
+        OneDrive/
+        Saved Games/
+        Searches/
+        Vagrantfile
+        Videos/
+        VirtualBox VMs/
+whoami
+echo "$USER"
+echo "$groups"
+id -GN
+id -G
+id -Gn
+emacs 2-groups
 git add .
+git commit -m 'Print groups including current user's group'
+git commit -m 'Print groups including current user's group'
+git add .
+git commit -m 'Print groups inc current user's too'
+git commit -m 'Print current group'
+git push
+wc -c
+touch hello
+ls
+chmod 755 3-new_owner
+echo #!/bin/bash'\n'touch hello >4-empty
+git add .
+git commit -m 'task4-empty'
+git init
+git commit -m 'task4-empty'
+ git add .
+git commit -m 'task4-empty'
+
+mkdir 0x01-shell_permissions
+cd
+cd /root
+cd
+ls
+cd alx-system_engineering-devops
+mkdir 0x01-shell_permissions
+cd 0x01-shell_permissions
+echo >0-iam_betty
+emacs 
+emacs 0-iam_betty
+cd
+cd /0x01-shell_permissions
+cd 0x01-shell_permissions
+cd
+cd root/alx-system_engineering-devops/0x01-shell_permissions
+cd /root/alx-system_engineering-devops/0x01-shell_permissions
+echo 'first readme' >README.md
 git add README.md
-git commit -m "first commit"
+echo '#!bin/bash' >README.md
+echo '#change user to betty' >README.md
+git add .
+git commit -m 'to Create a script that switches the current user to the user betty'
+git push
+cd alx-system_engineering-devops
+cd /alx-system_engineering-devops
+cd root/alx-system_engineering-devops
+cd /root/alx-system_engineering-devops
+echo "# alx-system_engineering-devops" >> README.md
 git add .
 git push
-git remote add origin https://github.com/jolly26/alx-system_engineering-devops.git
-git push -u origin main
-git add .
-cd
-cd /root
-ls
-git init
-cd /root
-git clone https://github.com/jolly26/alx-system_engineering-devops.git
-git add .
-git rm -f --cached 0x00-shell_basics
-echo "# alx-system_engineering-devops" >> README.md
-mkdir 0x00-shell_basics
-git add README.md
-git commit -m "first commit"
-git clone https://github.com/jolly26/alx-system_engineering-devops.git
-git remote add origin https://github.com/jolly26/alx-system_engineering-devops.git
-git push -u origin main
-git pull
-git pull remote https://github.com/jolly26/alx-system_engineering-devops.git main
-git pull https://github.com/jolly26/alx-system_engineering-devops.git main
-git push -u origin main
-git push 
-git push --set-upstream origin main
-mkdir 0x00-shell_basics
-rmdir 0x00-shell_basics
-rm -r 0x00-shell_basics
-mkdir 0x00-shell_basics
-git add .
-git commit -m 'first commit'
-mkdir  * Management:     https://landscape.canonical.com
-8 updates can be applied immediately.
-8 of these updates are standard security updates.
-To see these additional updates run: apt list --upgradable
-*** System restart required ***
-vagrant@ubuntu-focal:~$ git clone https://github.com/jolly26/alx-system_engineering-devops.git
-Cloning into 'alx-system_engineering-devops'...
-warning: You appear to have cloned an empty repository.
-vagrant@ubuntu-focal:~$ shutdown -r
-Failed to set wall message, ignoring: Interactive authentication required.
-Failed to call ScheduleShutdown in logind, no action will be taken: Interactive authentication required.
-vagrant@ubuntu-focal:~$ init 6
-Failed to set wall message, ignoring: Interactive authentication required.
-Failed to reboot system via logind: Interactive authentication required.
-Failed to open initctl fifo: Permission denied
-Failed to talk to init daemon.
-vagrant@ubuntu-focal:~$ sudo -i
-root@ubuntu-focal:~# init 6
-Connection to 127.0.0.1 closed by remote host.
-Connection to 127.0.0.1 closed.
-ashangom@ETGDT0101 MINGW64 ~
-$ vagrant ssh
-Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-99-generic x86_64)
-8 updates can be applied immediately.
-8 of these updates are standard security updates.
-To see these additional updates run: apt list --upgradable
-Last login: Thu Mar  3 19:24:52 2022 from 10.0.2.2
-`vagrant@ubuntu-focal:~$ `git clone https://github.com/jolly26/alx-system_engineering-devops.git
-> ^C
-vagrant@ubuntu-focal:~$ cd /root
--bash: cd: /root: Permission denied
-vagrant@ubuntu-focal:~$ sudo -i
-root@ubuntu-focal:~# cd /root
-root@ubuntu-focal:~# mkdir 0x00-shell_basics
-root@ubuntu-focal:~# cd 0x00-shell_basics
-root@ubuntu-focal:~/0x00-shell_basics# git clone https://github.com/jolly26/alx-system_engineering-devops.git
-Cloning into 'alx-system_engineering-devops'...
-warning: You appear to have cloned an empty repository.
-root@ubuntu-focal:~/0x00-shell_basics# echo "# alx-system_engineering-devops" >> README.md
-root@ubuntu-focal:~/0x00-shell_basics# git add README.md
-fatal: not a git repository (or any of the parent directories): .git
-root@ubuntu-focal:~/0x00-shell_basics# git init
-Initialized empty Git repository in /root/0x00-shell_basics/.git/
-root@ubuntu-focal:~/0x00-shell_basics# git add README.md
-root@ubuntu-focal:~/0x00-shell_basics# git commit -m "first commit"
-[master (root-commit) 92ed4e0] first commit
-root@ubuntu-focal:~/0x00-shell_basics# git branch -M main
-root@ubuntu-focal:~/0x00-shell_basics# realpath "$0"
-realpath: invalid option -- 'b'
-Try 'realpath --help' for more information.
-root@ubuntu-focal:~/0x00-shell_basics# realpath --help
-Usage: realpath [OPTION]... FILE...
-Print the resolved absolute file name;
-all but the last component must exist
-root@ubuntu-focal:~/0x00-shell_basics# cd /bin/pwd
--bash: cd: /bin/pwd: Not a directory
-root@ubuntu-focal:~/0x00-shell_basics# /bin/pwd
-/root/0x00-shell_basics
-root@ubuntu-focal:~/0x00-shell_basics# emacs 0-current_working_directory
-root@ubuntu-focal:~/0x00-shell_basics# cd
-root@ubuntu-focal:~# git status
-fatal: not a git repository (or any of the parent directories): .git
-root@ubuntu-focal:~# git init
-Initialized empty Git repository in /root/.git/
-root@ubuntu-focal:~# cd /root
-root@ubuntu-focal:~# pwd
-/root
-root@ubuntu-focal:~# ls
-0x00-shell_basics  snap  zero_day
-root@ubuntu-focal:~# cd 0x00-shell_basics
-root@ubuntu-focal:~/0x00-shell_basics# git init
-Reinitialized existing Git repository in /root/0x00-shell_basics/.git/
-root@ubuntu-focal:~/0x00-shell_basics# git status
-On branch main
-Untracked files:
-nothing added to commit but untracked files present (use "git add" to track)
-root@ubuntu-focal:~/0x00-shell_basics# git add .
-error: 'alx-system_engineering-devops/' does not have a commit checked out
-fatal: adding files failed
-root@ubuntu-focal:~/0x00-shell_basics# git add README.md
-root@ubuntu-focal:~/0x00-shell_basics# git commit -m "first commit"
-On branch main
-Untracked files:
-nothing added to commit but untracked files present (use "git add" to track)
-root@ubuntu-focal:~/0x00-shell_basics# git add .
-error: 'alx-system_engineering-devops/' does not have a commit checked out
-fatal: adding files failed
-root@ubuntu-focal:~/0x00-shell_basics# git push
-fatal: No configured push destination.
-Either specify the URL from the command-line or configure a remote repository using
-and then push using the remote name
-root@ubuntu-focal:~/0x00-shell_basics# git remote add origin https://github.com/jolly26/alx-system_engineering-devops.git
-root@ubuntu-focal:~/0x00-shell_basics# git push -u origin main
-Username for 'https://github.com': jolly26
-Password for 'https://jolly26@github.com':
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 265 bytes | 132.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/jolly26/alx-system_engineering-devops.git
-Branch 'main' set up to track remote branch 'main' from 'origin'.
-root@ubuntu-focal:~/0x00-shell_basics# git add .
-error: 'alx-system_engineering-devops/' does not have a commit checked out
-fatal: adding files failed
-root@ubuntu-focal:~/0x00-shell_basics# cd
-root@ubuntu-focal:~# cd /root
-root@ubuntu-focal:~# ls
-0x00-shell_basics  snap  zero_day
-root@ubuntu-focal:~# git init
-Reinitialized existing Git repository in /root/.git/
-root@ubuntu-focal:~# cd /root
-root@ubuntu-focal:~# git clone https://github.com/jolly26/alx-system_engineering-devops.git
-Cloning into 'alx-system_engineering-devops'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
-Unpacking objects: 100% (3/3), 245 bytes | 122.00 KiB/s, done.
-root@ubuntu-focal:~# git add .
-warning: adding embedded git repository: 0x00-shell_basics
-hint: You've added another git repository inside your current repository.
-hint: Clones of the outer repository will not contain the contents of
-hint: the embedded repository and will not know how to obtain it.
-int: If you meant to add a subm
-cd 0x00-shell_basics
-ls
-emacs 0-current_working_directory
-git add .
 git commit -m 'first commit'
 git push
-git switch main
-git push
-cd /root
-git push
-git init
-git clone https://github.com/alx-system_engineering-devops.git
-git init
+tail -1 0-iam_betty | wc -c
 ls
-rm '^C'
-cd alx-system_engineering_devops
+cd 0x01-shell_permissions
+ls
+rm -r 0-iam_betty~
 git add .
-pwd
-mkdir -focal:~# git rm -f --cached alx-system_engineeringcd
-mkdir alx-system_engineering-devops
+git commit -m 'second commit'
+git push
+whoami
+echo #!/bin/bash'\n'whoami' >1-who_am_i
+git add .
+git commit -m 'add a script and document changes for task1'
+git add .
+git commit -m 'add a script and document changes for task1'
+git push
+cd
+ls
+cd /root/alx-system_engineering-devops 
+cd 0x01-shell_permissions
+ls
+emacs 1-who_am_i
+git add .
+git commit 'add script and document changes to task1'
+git commit -m 'add script and document changes to task1'
+git push
+groups
+groups --help
+groups root
+groups tmp
+user
+&
+su
+mkdir 0x01-shell_permissions
+\n
+no --help
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+sudo -i
+rmdir 0x01-shell_permissions
+cd
+cd /root
+rmdir 0x01-shell_permissions
+ls
 cd alx-system_engineering-devops
 ls
-mkdir 0x00-shell_basics
-emacs 0-current_working_directory
-git add README.md
-git commit -m 'first commit'
-git config --global user.email "pc4jolly@gmail.com"
-git config --global user.name "jolly26"
-git commit -m 'first commit'
-git add README.md
-git commit -m 'first commit'
+cd 0x01-shell_permissions
+ls
+echo #!/bin/bash'\n'chown betty hello >3-new_owner
 git add .
-git commit -m 'first commit'
+git commit -m 'change ownership to another "user-Task#4"'
+git add .
+git commit -m 'change ownership'
+git init
+git commit -m 'change ownership'
+cd
+cd /root/alx-system_engineering-devops
+ls
+cd 0x01-shell_permissions
+emacs 3-new_owner
+git add .
+git commit -m 'Task3 -change owner'
+emacs 4-empty
+git add .
+git commit -m 'Task4 --create empty file "hello"'
 git push
-shutdown -r
-shutdown -c
-shutdown
-shutdown -c
-shutdown now
+git remote add origin https://github.com/jolly26/alx-system_engineering-devops.git
+git push
+git push --set-upstream origin main
+git push --set-upstream origin master
+git pull
+git checkout
+git checkout main
+git checkout master
+git branch --set-upstream-to=origin/<branch> master
+git branch --set-upstream-to=origin/<branch>master
+git branch --set-upstream-to=origin/master
+git push
+git init
+git push
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+git add .
+t rm --cached
+t rm --cached
+git rm --cached alx-system_engineering-devops
+git rm -f --cached alx-system_engineering-devops
+git add .
+git init
+ls
+rm -r alx-system_engineering-devops
+git add .
+git commit -m 'Task4 --create emppty file hello'
+git pull
+git rm -f --cached alx-system_engineering-devops
+cd /roots/alx-system_engineering-devops
+cd roots/alx-system_engineering-devops
+ls
+ls
+cd rm -r
+cd rm -r
+cd 0x01-shell_permissions
+ls
+rm -r 0x01-shell_permissions
+s
+su
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+sudo -i
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+cd /root/alx-system_engineering-devops
+cd 0x01-shell_permissions
+ls
+git add 4-empty
+git commit -m 'Task4 --empty file "hello"'
+ rm -r 4-empty
+cd
+cd ~/alx-system_engineering-devops/0x01-shell_permissions
+cd
+cd ~/0x01-shell_permissions
+cd ~0x01-shell_permissions
+cd ~/alx-system_engineering-devops/0x01-shell_permissions
+ls
+emacs 4-empty
+emacs 4-empty
+ls
+emacs 4-empty
+echo #!/bin/bash'n'touch hello >4-empty
+ls
+ls -l
+git init
+emacs 4-empty
+emacs 4-empty
+emacs 4-empty
+cd /root/alx-system_engineering-devops
+pwd
+cd 0x01-shell_permissions
+ls
+rm '*scratch*'
+ls
+emacs 4-empty
+cd alx-system_engineering-devops
+cd 0x01-shell_permissions
+ls
+rm '#scratch*#'
+rm '#*scratch*#'
+
+rm 'scratch*'
+rm '*scratch*'
+ls
+vm 4-empty
+apt install mgetty-voice
+vm 4-empty
+emacs 4-empty
+apt -u emacs
+emacs --version
+exit
+cd ~/alx-system_engineering-devops/0x01-shell_permissions
+ls
+echo '#!/bin/bash' >4-empty
+echo 'touch hello' >4-empty
+git add .
+git commit -m 'Task4 --create empty file hello'
+git push
+git pull
+cd
+ls
+ls
+cd alx-system_engineering-devops 
+ls
+git init
+git clone https://github.com/jolly26/alx-system_engineering-devops/.git/
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+git pull
+git add .
+ls
+rm alx-system_engineering-devops
+rmdir alx-system_engineering-devops
+rm -r alx-system_engineering-devops
+ls
+git add .
+git commit -m 'task4'
+git push
+cd
+cd alx-system_engineering-devops
+ls
+cd 0x01-shell_permissions 
+ls
+git add 3-new_owner
+git commit -m 'Task3'
+rm -r 3-new_owner
+emacs 3-new_owner
+vm
+vim
+vim 5-execute
+git add .
+git commit -m 'execute permission'
+git push
+ls
+git pull
+git push
+ls
+git pull --rebase
+git rebase --abort
+git push
+git pull --rebase
+git push origin FixForBug
+git push -f origin master
+vim 6-multiple_permissions
+git add .
+git commit -m '#!/bin/bash'
+git push
+git push origin main
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+git push
+git push origin HEAD:main
+cd ~
+ls
+cd alx-system_engineering-devops 
+ls
+cd 0x00-shell_basics
+ls
+rm -r 0-current_working_directory
+touch 0-current_working_directory
+ls
+cd 0-current_working_directory
+emacs 0-current_working_directory
+git add .
+git commit -m 'print current directory'
+git push
+git init
+git push
+git status
+exit
+cd alx-system_engineering-devops
+cd 0x00-shell_basics
+ls
+less 0-current _working_directory
+git push
+cd..
+cd ..
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+git init
+git add README.md
+git add .
+git rm -f cached 0x00-shekk_basics
+git rm -f cached 0x00-shell_basics
+git push
+ls
+rm -r alx-system_engineering-devops
+cd ..
+ls
+git status
+cd alx-system_engineering-devops
+git add .
+git commit -m 'Task1'
+git push
+git pull
+git push
+git pull
+sudo -t
+sudo -i
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+ls
+cd 0x00-shell_basics
+ls
+cd ..
+cd /0x00-shell_basics
+cd 0x00-shell_basics
+rm -r 0x00-shell_basics
+cd ..
+rm -r 0x00-shell_basics
+mkdir 0x00-shell_basics
+cd 0x00-shell_basics
+touch 0-current_working_directory
+emacs 0-current_working_directory
+git add .
+ls
+rm 0-current_working_directory~
+git add .
+exit
+cd ~/alx-system_engineering-devops
+mkdir 0x00-shell_basics
+cd 0x00-shell_basics
+ls
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+git init
+emacs 0-current_working_directory
+git add .
+ls
+cd ..
+ls
+cd ..
+ls
+cd alx-system_engineering-devops
+ls
+git add .
+git add .
+emacs 
+cd 0x00-shell_basics
+ls
+rm -r  alx-system_engineering-devops
+git add .
+git commit -m 'task1'
+git push
+git push main
+git push master
+git push --set-upstream master
+git push --set-upstream master master
+sudo -i
+git clone https://github.com/jolly26/alx-system_engineering-devops.git
+cd alx-system_engineering-devops/
+cd
+cd alx-system_engineering-devops/
+ls
+git pull
+git pull
+git pull
+exit
+cd alx-system_engineering-devops
+ls
+git push
+cd
+rm -r -f alx-system_engineering-devops
+cd alx-system_engineering-devops
+ls
+git pull
+ls
+git pull
+git init
+git pull
+mkdir 0x02-shell_redirections
+cd 0x02-shell_redirections
+ls
+emacs 2-hellofile
+chmod u+x 2-hellofile
+git add 2-hellofile
+git commit -m '2-hellofile'
+git push
+git pull
+git push
+git push --help
+git push -f
+emacs 3-twofiles
+chmod u+x 3-twofiles 
+git add 3-twofiles 
+git commit -m '3-twofiles'
+git push
+./3-twofiles 
+cat /etc/passwd
+cat /etc/passwd >> cat /etc/hosts
+./etc/hosts
+cat ./etc/hosts
+cat /etc/hosts
+emacs 3-twofiles
+git add 3-twofiles 
+git commit -m '3-twofiles'
+git push
+git push
+./3-twofiles 
+git add 3-twofiles 
+git commit -m '3-twofiles'
+git add 3-twofiles
+git commit -m '3-twofiles'
+ls
+rm -r cat
+git add 3-twofiles 
+git commit -m '3-twofiles'
+git restore 3-twofiles
+ls
+./3-twofiles 
+vim 3-twofiles 
+git add 3-twofiles 
+git commit -m '3-twofiles'
+ls
+ls -la
+cd ..
+ls la
+ls -la
+git add README.md
+ls
+cd ..
+ls
+cd alx-system_engineering-devops/0x02-shell_redirections/
+ls -la
+git add 3-twofiles 
+git commit -m '3-twofiles'
+git push
+vim 3-twofiles 
+cd  /root
+ls
+cd alx-system_engineering-devops/
+ls
+cd  0x02-shell_redirections
+ls
+vim 3-twofiles 
+git add 3-twofiles 
+git commit -m '3'
+git add .
+git commit -m '3-twofiles'
+ls
+ls -la
+git push
+ls
+rm -r -f 3-twofiles 
+git rm 3-twofiles 
+git commit 
+git push
+vim 3-twofiles
+chmod u+x 3-twofiles 
+git add -m '3-twofiles'
+git commit -m '3-twofiles'
+git add .
+git commit -m '3-twofiles'
+git push
+./3-twofiles 
+emacs 4-lastlines
+chmod +x 4-lastlines 
+git add 4-lastlines 
+git commit -m '4-lastlines'
+git push
+vim 5-firstlines
+git clone https://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@github.com/jolly26/alx-system_engineering-devops.git
+ubuntu --version
+ubuntu/focal64 --version
+ubuntu/focal --version
+vagrant ssh
+vagrant up
+exit
